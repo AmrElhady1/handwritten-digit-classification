@@ -20,7 +20,7 @@ A simple yet effective implementation of a **Deep Neural Network (DNN)** to accu
 Make sure you have the following installed:
 
   * **Python 3.x**
-  * **Jupyter Notebook** or **Google Colab** (where the code was developed)
+  * **Jupyter Notebook** or **Google Colab** 
 
 You'll need the following libraries, which you can install via `pip`:
 
@@ -38,7 +38,7 @@ The core of the project is contained within a single notebook, but the overall s
 .
 ├── MNIST_Classification_DNN.ipynb  # Main notebook with all code
 ├── README.md                       # This file
-└── ...                             # Other potential files (e.g., saved model)
+└── ...                             # Other potential files 
 ```
 
 -----
@@ -54,7 +54,7 @@ The model is built using the `Sequential` API in Keras:
 | **3 (Hidden 2)**| `Dense` | 50 | `relu` | Second fully connected hidden layer. |
 | **4 (Output)** | `Dense` | 10 | `sigmoid` | Outputs probability scores for the 10 classes (digits 0-9). |
 
-  * **Loss Function:** `sparse_categorical_crossentropy` (used because the labels are integers, not one-hot encoded).
+  * **Loss Function:** `sparse_categorical_crossentropy` (used because the labels are integers, not one hot encoded).
   * **Optimizer:** `adam`
   * **Training:** Run for **10 epochs**.
 
@@ -68,7 +68,7 @@ The model is built using the `Sequential` API in Keras:
     cd Handwritten_Digit_Classification
     ```
 2.  **Open the notebook:**
-    Open `MNIST_Classification_DNN.ipynb` in a Jupyter environment or Google Colab.
+    Open `Handwritten_Digit_Classification.ipynb` in a Jupyter environment or Google Colab.
 3.  **Execute Cells:** Run all the code cells sequentially. The notebook handles data loading, preprocessing, model definition, training, and evaluation automatically.
 
 -----
